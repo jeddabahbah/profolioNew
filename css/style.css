@@ -166,6 +166,10 @@ nav.show {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
+
+
 .jeddName{
     text-transform: uppercase;
     font-weight: bold;
@@ -342,4 +346,25 @@ a:focus {
   height: 40px;
   background: #fff; 
   border: 2px solid;
+}
+
+
+@media screen and (max-width: 375px){
+  .jeddName{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .jeddDetail{
+  font-weight: 300;
+  font-size: 8px;
+  margin-top: -5px;
+}
+
+.posDetail{
+  margin-top: -70px;
+  margin-left: 10px;
+}
+
 }
